@@ -9,7 +9,7 @@ odir = 'out'
 
 # Options added to radmc3d.inp
 options = {
-    'scattering_mode_max': 0,
+    'scattering_mode_max': 0,  # 0 = no scattering
     # 'setthreads': 8  # NOTE: will fail if there are not enough threads
 }
 
