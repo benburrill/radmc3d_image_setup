@@ -53,6 +53,7 @@ The ``download_molecules`` script will do this for you.  For example,
 run
 
 .. code::
+
     $ ./download_molecules co 13co c18o
 
 to download common isotopologues of CO.
