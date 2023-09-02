@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+for mol; do
+    echo "> Downloading $mol from https://home.strw.leidenuniv.nl/~moldata"
+    curl -L "https://home.strw.leidenuniv.nl/~moldata/datafiles/$mol.dat" -o "molecule_$mol.inp" || exit
+done
